@@ -3,4 +3,4 @@ module Main where
 import Basics
 
 main :: IO ()
-main = putQStrLn
+main = print (fact 20)
